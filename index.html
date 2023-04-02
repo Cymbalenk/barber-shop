@@ -11,7 +11,11 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
   />
-  <link rel="stylesheet" href="./css/style.css"/>
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="./dist/css/main.min.css"/>
     <title>barbershop</title>
   </head>
   <body>
@@ -20,7 +24,7 @@
 
     <header class="hedear">
 <section class="header-page">
-  <div class="conteiner">
+  <!-- <div class="conteiner"> -->
     <div class="wrapper"> 
      
   <div class="network">
@@ -56,19 +60,85 @@
   <use href="./image/icon/symbol-defs (2).svg#icon-linegor"></use></svg> 
 </span>A hair salon for men in Kyiv</p>
 <h1 class="hero__tittel">BarberShop</h1>
-<p class="hero__text">We are experts in trendy men’s haircuts.<br>
+<p class="hero__text">We are experts in trendy men’s haircuts.
   We work quickly, carefully and with style.</p>
 
 
 <ul class="buttons list">
   <li class="buttons__item"><button type="button"class="buttons__button1">Back </button> </li>
   <li class="buttons__item"><button type="button"class="buttons__button2">Forward</button></li>
-
   </ul>
   </div>
   </div>
-</div>
+<!-- </div> -->
 </section>
+<svg class="logo mobil" width="68" height="55">
+  <use href="./image/icon/symbol-defs (2).svg#icon-Logo"></use></svg> 
+
+ 
+<button
+ type="button"
+ class="button-open__button js-open-menu is-open" 
+ aria-expanded="false"
+  aria-controls="menu-conteiner" >
+
+  <svg
+   class="button-open__icon"
+    width="40"
+     height="40"
+     aria-label="Перемикач мабільного міню"
+ >
+ <use href="./image/icon/symbol-defs (1).svg#icon-menu_40px">
+ </use>
+</svg>
+</button>
+     
+
+  
+
+
+<div class="menu-conteiner js-menu-container" id="menu-conteiner">
+
+  <button type="button" class="button-close__button js-close-menu" >
+
+    <svg class="button-close__icon" width="19" height="19">
+      <use href="./image/icon/symbol-defyys.svg#icon-close_24px">  
+     </svg>
+     </button>
+      
+
+ 
+ <div class="mobile-menu " >
+
+    <div class="mobil-menu">
+   
+       <nav class="nav-mobil-site">
+        <ul class="nav-mobil-site__link list">
+        <li class="nav-mobil-site__item"> About</li>
+        <li class="nav-mobil-site__item">Services and prices</li>
+        <li class="nav-mobil-site__item">Barbers</li>
+        <li class="nav-mobil-site__item">Contacts</li>
+      </ul>
+      </nav>
+      <div class="auth-mobil-site">
+        <ul class="auth-mobil-site__link list">
+      <li class="auth-mobil-site__item">+38 044 111 11 11</li>
+      <li class=" border-mobil">Online-booking</li>    
+        </ul>
+        <ul class="mobil-network__link list">
+      <li class="mobil-network__item">
+        <svg class="mobil-network__icon" width="60" height="1">
+        <use href="./image/icon/symbol-defs (2).svg#icon-linegor"></use></svg>  </li>
+      <li class="mobil-network__item">Instagram</li>
+      <li class="mobil-network__item">Youtube</li>
+    </ul>
+ </div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
 </header>
 
 <!-- benefits -->
@@ -133,27 +203,62 @@
 
 </div>
 </section>
+<section class="section-part">
 
+  <div class="part">
+    <div class="partfolio-conteiner">
+  <p class="partfolio__text">   
+      <svg class="hero__icon" width="60" height="1">
+    <use href="./image/icon/symbol-defs (2).svg#icon-linegor"></use></svg> Spend your time with the best masters</p>
+  <h2 class="part__tittle">Services and prices</h2>
+  <div class="work-set">
+  <ul class="work-set__link1 list">
+  <li class="work-set__item">Men’s haircut..................................
+    from 300 uah.</li>
+  <li class="work-set__item">Beard trim.......................................
+    from 300 uah.</li>
+  <li class="work-set__item">Mustache trim................................
+    from 200 uah.</li>
+  <li class="work-set__item">Straight razor shave.......................
+    from 200 uah.</li>
+
+    <li class="work-set__item">
+      Trainee’s haircut...............................
+      from 50 uah.</li>
+    <li class="work-set__item">Haircut under the nozzle...............
+    from 200 uah.</li>
+    <li class="work-set__item">Children’s haircut (0-12 y.o.)...........
+    from 300 uah.</li>
+    <li class="work-set__item">Camouflage of gray hair..................
+    from 200 uah.</li>
+    </ul>
+  </div>
+  
+  </div>
+  <div class="but"><button type="button"class="partfolio__button">online-booking</button></div>
+  
+  </div>
+  </section>
 <!-- actions -->
 
 <section class="card-action">
 <div class="actions-conteiner">
   <div class="card-actions">
   <ul class="card-actions__link list">
-    <li class="card-actions__item">  <svg class="card-actions__icon" width="170" height="133">
-      <use href="./image/icon/symbol-defs (2).svg#icon-Feature-1"></use></svg> </li>
-    <li class="card-actions__item">  <svg class="card-actions__icon" width="170" height="133">
-      <use href="./image/icon/symbol-defs (2).svg#icon-Feature-2"></use></svg> </li>
-    <li class="card-actions__item">  <svg class="card-actions__icon" width="170" height="133">
-      <use href="./image/icon/symbol-defs (2).svg#icon-Feature-3"></use></svg> </li>
-    <li class="card-actions__item">  <svg class="card-actions__icon" width="170" height="133">
-      <use href="./image/icon/symbol-defs (2).svg#icon-Feature-4"></use></svg> </li>
+    <li class="card-actions__item feature-1"> 
+       </li>
+    <li class="card-actions__item feature-2"> 
+       </li>
+    <li class="card-actions__item feature-3"> 
+      </li>
+    <li class="card-actions__item feature-4">
+       </li>
   </ul>
 <div class="card-set">
   <p class="cart-actions__label">  
        <svg class="hero__icon" width="60" height="1">
     <use href="./image/icon/symbol-defs (2).svg#icon-linegor"></use></svg>  Old traditional school</p>
-  <h2 class="cart-actions__tittel">¿Why people come<br> to us?</h2>
+  <h2 class="cart-actions__tittel">¿Why people come to us?</h2>
   <p class="cart-actions__text">Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
 </div>
 </div>
@@ -296,22 +401,19 @@
        <label class="form-page__label"> Name* </label> 
     <input type="text"class="field__input" name="name" value="" /> 
       </div>
-   
 
-    <div class="form-page__item">
-       <label class="form-page__label"> Phone*</label> 
-       <div class="form-page__grup">
-        <input type="tel"class="field__input" name="tel" value=""/>
-    </div>
-  </div>
-  
-</div>
-    <div class="form-page__message">  
+
+      <div class="form-page__grup">
+        <label class="form-page__label">Phone* </label> 
+     <input type="tel"class="field__input" name="tel" value="" /> 
+       </div>
+     <div class="form-page__message">  
        <label class="message-label">Message</label>
-       <div class="form-page__grup">
     <input class="message-inpud" type="email" name="email" value=""/> 
   </div>
-   </div>
+</div>
+ 
+  
 
     <button type="submit"class="form-page__button">send</button> 
   </form>
@@ -320,7 +422,7 @@
 <address class="address">
   <svg class="contacts-grup__icon" width="20" height="20">
   <use href="./image/icon/symbol-defs (2).svg#icon-map-pin"></use></svg> 
-  st. Vasilkivska, 7A<br>
+  st. Vasilkivska, 7A
   Kyiv, 08132
 </address>
 <ul class="contacts-grup list">
@@ -344,8 +446,9 @@
 <div class="text-grup">
 <p class="label">&#174 Copyright 2020</p>
 <ul class="text-grup__link list">
-  <li class="text-grup__item">   <svg class="text-grup__icon" width="60" height="1">
-    <use href="./image/icon/symbol-defs (2).svg#icon-linegor"></use></svg></li>
+  <li class="text-grup__item"> 
+      <svg class="text-grup__icon" width="60" height="1">
+    <use href=""></use></svg></li>
   <li class="text-grup__item"><a href="/" class="text-grup__list">Instagram</a></li>
   <li class="text-grup__item"><a href="/" class="text-grup__list">Youtube</a></li>
 </ul>
@@ -353,52 +456,5 @@
 </div>
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
   </body>
 </html>

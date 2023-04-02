@@ -1,0 +1,89 @@
+.mobil-menu {
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+
+}
+
+.nav-mobil-site__link {
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
+}
+.nav-mobil-site__item {
+margin-bottom: 24px;
+
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 18px;
+ line-height: 25px;
+ letter-spacing: 0.1em;
+
+ color:  #303030;
+
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.nav-mobil-site__item:hover {
+  color: darkorange;  
+}
+.nav-mobil-site__item:last-child {
+    margin-bottom: 0;
+}
+// auth
+
+.auth-mobil-site__link {
+    margin-top: 64px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.auth-mobil-site__item {
+margin-bottom: 24px;
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+   text-transform: uppercase;
+
+    color:  #303030;;
+}
+.auth-mobil-site__item:last-child {
+    margin-bottom: 0;
+}
+
+// mobil
+.mobil-network__link {
+display: flex;
+flex-wrap: wrap;
+
+    margin-top: 64px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.mobil-network__item {
+margin-bottom: 40px;
+margin-left: 40px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 0.2em;
+
+color: #303030;
+
+}
+.mobil-network__item:last-child {
+    margin-bottom: 0;
+   margin-left: 100px;
+}
+.mobil-network__item:first-child {
+    margin-left: 0;
+}
